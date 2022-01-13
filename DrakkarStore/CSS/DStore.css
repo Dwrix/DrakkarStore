@@ -1,0 +1,700 @@
+﻿*{
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    background-image: url(../Images/fondofix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-image: url(../Images/imgbodyfi.jpg);
+    width: 1200px;
+    height: auto;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/*header*/
+
+.header {
+    background-image: url(../Images/imgheaderfix.jpg); 
+    color: white;
+    position: relative;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.secthead1 {
+    margin: auto;
+    position: relative;
+}
+
+.secthead2 {
+    margin: auto;
+    position: relative;
+}
+
+.h101{
+    color:white;
+}
+.secthead3 {
+    margin: auto;
+    position: relative;
+}
+
+
+.logo{
+    margin: 30px;
+    width:120px;
+    height:120px;
+    background-image: url(../Images/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navegacion{
+    margin:auto;
+}
+
+/*botones*/
+
+.boton {
+    border: 2px black solid;
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color:slategray;
+}
+
+.boton:active{
+    background-color: white;
+}
+    
+
+
+/*PagPrincipal*/
+
+
+
+.sliderofertas ul li img {
+    width: 220px;
+    height: 200px;
+}
+
+.sliderofertas ul li {
+    height: 350px;
+    border: 1px solid black;
+    margin-left: 20px;
+    width: 100%;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.sliderofertas ul {
+    display: flex;
+    list-style: none;
+    height: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.sliderofertas {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+
+.sectofertas {
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 20px;
+    background-color: darkgray;
+}
+
+.sectdestacados {
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 20px;
+    background-color: darkgray;
+}
+
+#precio {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+#nomprod {
+    padding: 5px;
+    text-align:center;
+}
+
+/*DKPass Home*/
+
+.tbldkpass tr td p {
+    width: 500px;
+    height: 100px;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.tbldkpass {
+    position: relative;
+    
+}
+
+#listcostos {
+    font-size: 30px;
+    margin-left: 20px;
+    list-style: none;
+    color: red;
+    position: relative;
+}
+
+#dkpass {
+    width: 350px;
+    height: auto 100%;
+    margin-left: 20px;
+    position: relative;
+}
+
+.tbldkpass tr td h2{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.sectdkpass {
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 20px;
+    background-color: darkgray;
+}
+
+/*Servicio Tecnico*/
+
+#logoserv {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.sectservtect {
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: relative;
+    background-color: darkgray;
+}
+
+.tblservtect {
+    position: relative;
+}
+
+.tblservtect tr td p {
+    width: 600px;
+    height: 100px;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.tblservtect tr td h2 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+
+/*footer*/
+
+.footer {
+    background-image: url(../Images/imgheaderfix.jpg);
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.logocopy {
+    width: 30px;
+    height: 30px;
+    background-image: url(../Images/copyright.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    padding-right:20px;
+}
+
+.sectfoot1 {
+    display: flex;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 10px;
+}
+
+.listafoot{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.listafoot li {
+    margin-left: 20px;
+}
+
+.sectfoot2 {
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/*DKPass*/
+
+.sectdkpass1 {
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: darkgray;
+}
+
+.sectdkpass1 p {
+    text-align:justify;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+
+#imgdk1 {
+    height: 450px;
+    width: 500px;
+    position: relative;
+}
+
+#imgdk2 {
+    height: 450px;
+    width: 500px;
+    position: relative;
+}
+
+.sectdkpass2 {
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: darkgray;
+}
+
+.subdkpass {
+    display: flex;
+    list-style: none;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .subdkpass li {
+        border: 2px solid black;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+.imgsubzonas{
+    width: 150px;
+    height: 150px;
+}
+
+#preciosub {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Ofertas*/
+
+.sectofertas1 {
+    width: 1100px;
+    height: auto;
+    position: relative;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: darkgray;
+}
+
+.ofertas {
+    list-style: none;
+    position: relative;
+    margin-bottom: 20px;
+    height: auto;
+    width: 1100px;
+    
+}
+
+    .ofertas tr td {
+        border: 1px solid black;
+        width: 200px;
+        height: auto;
+        position: relative;
+        margin: 50px;
+        text-align: center;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+.ofertas tr td img {
+    width: 200px;
+    height: 150px;
+}
+
+/*Productos*/
+
+.tblproducto {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.trimgprod {
+    text-align: center;
+}
+
+.trimgprod td{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.imgproducto {
+    height: 400px;
+    width: 700px;
+}
+
+.descproducto {
+    position:relative;
+    text-align: justify;
+    width: 200px;
+    font-size: 20px;
+}
+
+.precioproducto {
+    position: relative;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+.tblespec tr td {
+    background-color: darkgray;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.tblespec tr th {
+    background-color: #00802b;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.titproducto{
+    font-size: 30px;
+}
+
+/*Registro*/
+
+.tblRegistro {
+    background-image: url(../Images/imgheaderfix.jpg);
+    color:white;
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 250px;
+    width: 380px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
+.titregistro {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#BntEnviar {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.datoregistro {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/*Login*/
+
+.formlogin {
+    background-image: url(../Images/imgheaderfix.jpg);
+    color:white;
+    margin: auto;
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tduserpw {
+    font-size: 20px;
+}
+
+.bodylogin {
+    width: auto;
+    height: 300px;
+}
+
+/*Contacto Telefonos*/
+
+.bodycontacto {
+    background-color: darkgray;
+}
+
+#LnkUser{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 45%;
+}
+
+.tblcontacto {
+    border: 2px solid black;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+    .tblcontacto tr td {
+        padding: 10px;
+        font-weight: bold;
+    }
+
+#titcontacto1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*Tabla Formulario de Contacto*/
+
+.tblmotivo {
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: darkgray;
+    padding: 20px;
+    width: 600px;
+}
+
+.titmotivo {
+    text-align: center;
+    font-size: 25px;
+}
+
+.tblmotivo tr td{
+    padding: 10px;
+}
+
+.txtmotivos{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.casilla{
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.casilladesc {
+    width: 100%;
+    max-width: 350px;
+    max-height: 200px;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#BtnRegistro {
+    margin-left: 120px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#LnkListado {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.casillaitems {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#LbMensaje {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40px;
+}
+
+/*Listado Motivos*/
+
+#GrdMotivos {
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.tblbuscar {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: darkgray;
+}
+
+#TxtBuscar {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#LnkNuevo {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#LbMensaje1{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tblmodmotivo {
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: darkgray;
+    padding: 20px;
+    width: 600px;
+}
+
+.titlistado {
+    text-align: center;
+    font-size: 25px;
+}
+
+.tblmodmotivo tr td {
+    padding: 10px;
+}
+
+#LnkEditar {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#BtnModificar {
+    font-size: 20px;
+}
+
+#BtnEliminar {
+    font-size: 20px;
+}
+
+#LbMensaje2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
