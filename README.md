@@ -1,3 +1,3 @@
 # DrakkarStore
 
-Tiena de hardware estatica con login
+Tienda de hardware estatica con login
